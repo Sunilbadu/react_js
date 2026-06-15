@@ -31,3 +31,6 @@ const inc = nums.map(num=>num+1);
 
 const numsx = [1, 2, 3];
 const newx = numsx.map(n=>n*10);
+
+const nums = [1, 2, 3, 4, 5, 6];
+const odds = nums.filter(n=>n%2 !== 0)
